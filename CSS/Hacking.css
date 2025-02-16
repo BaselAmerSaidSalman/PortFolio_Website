@@ -1,0 +1,22 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.hacking_body_cross{
+    font-size: 30px;
+    background-color: transparent;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.hacking_body_cross:hover{
+    font-size: 35px;
+}
+
+.hacking_h1{
+    font-size: 60px;
+    text-align: center;
+}

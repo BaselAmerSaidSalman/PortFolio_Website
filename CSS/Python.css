@@ -1,0 +1,88 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    height: 1400px;
+}
+
+.python_page_body_cross{
+    font-size: 30px;
+    background-color: transparent;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.python_page_body_cross:hover{
+    font-size: 35px;
+}
+
+
+.python_h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.python_projects{
+    font-size: 40px;
+}
+
+.companies_finance_management, .films_library_application, .files_library, .gym_members_management, .hangman_game, .library_books, .rock_paper_scissors_game, .rabbit_place_choice{
+    text-decoration: none;
+    background-color: transparent;
+    color: #8B0000;
+    border: solid #8B0000 1px;
+    font-size: 50px;
+    padding: 70px;
+    border-radius: 50px;
+}
+
+.companies_finance_management:hover, .films_library_application:hover, .files_library:hover, .gym_members_management:hover, .hangman_game:hover, .library_books:hover, .rock_paper_scissors_game:hover, .rabbit_place_choice:hover{
+    background-color: #E85C5C;
+    color: #121212
+}
+
+.companies_finance_management{
+    position: relative;
+    top: 150px;
+}
+
+.hangman_game{
+    position: relative;
+    top: 292px;
+    left: 100px
+}
+
+.films_library_application{
+    position: relative;
+    top: 350px;
+}
+
+.files_library{
+    position: relative;
+    top: 92px;
+    left: 260px
+}
+
+.gym_members_management{
+    position: relative;
+    top: 550px;
+}
+
+.library_books{
+    position: relative;
+    top: 492px;
+    left: 965px
+}
+
+.rock_paper_scissors_game{
+    position: relative;
+    top: 753px;
+    right: 462px
+}
+
+.rabbit_place_choice{
+    position: relative;
+    top: 697px;
+    left: 810px
+}

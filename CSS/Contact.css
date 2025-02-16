@@ -1,0 +1,146 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contact_content{
+    padding: 20px;
+}
+
+.contact_h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.contact_page_body_cross{
+    font-size: 30px;
+    background-color: transparent;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.contact_page_body_cross:hover{
+    font-size: 35px;
+}
+
+
+.contact_user_name, .contact_user_email, .contact_message_reason, textarea{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+.contact_user_name, .contact_user_email, .contact_message_reason{
+    height: 40px;
+    width: 400px;
+}
+
+textarea{
+    width: 500px;
+    height: 200px;
+}
+
+.contact_user_name{
+    position: relative;
+    top: 170px;
+    left: 800px
+}
+
+.contact_user_name_label{
+    position: relative;
+    top: 130px;
+    left: 850px
+}
+
+.contact_user_email{
+    position: relative;
+    top: 260px;
+    left: 337px
+}
+
+.contact_user_email_label{
+    position: relative;
+    top: 222px;
+    left: 390px
+}
+
+.contact_message_reason{
+    position: relative;
+    top: 350px;
+    right: 134px
+}
+
+.contact_message_reason_label{
+    position: relative;
+    top: 310px;
+    right: 71px
+}
+
+textarea{
+    position: relative;
+    top: 400px;
+    left: 777px
+}
+
+.textarea_label{
+    position: relative;
+    top: 185px;
+    left: 850px
+}
+
+.contact_submit{
+    color: #8B0000;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: transparent;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: #8B0000 solid 1px;
+    font-size: 20px;
+    position: relative;
+    top: 470px;
+    left: 470px
+}
+
+.contact_submit:hover{
+    background-color: #E85C5C;
+    color: #121212
+}
+
+.contact_page_facebook_image, .contact_page_x_image, .contact_page_linkedin_image, .contact_page_github_image, .contact_page_instagram_image{
+    background-color: transparent;
+    color: #FF6347;
+    text-decoration: none;
+    margin-right: 8px;
+    padding: 10px;
+    padding-left: 11px;
+    border: #8B0000 solid 1px;
+    border-radius: 50%;
+}
+
+.contact_page_facebook_image:hover, .contact_page_x_image:hover, .contact_page_linkedin_image:hover, .contact_page_github_image:hover, .contact_page_instagram_image:hover{
+    filter: brightness(1.5);
+    background-color: #FF4444;
+    color: #121212;
+    font-size: 18px;
+}
+
+.footer_social_media_icons{
+    width: fit-content;
+    position: relative;
+    bottom: 900px;
+    left: 625px;
+}
+
+.contact_image{
+    width: 450px;
+    height: 600px;
+    position: relative;
+    left: 100px;
+    bottom: 140px
+}
+
+.thanks{
+    display: none;
+}

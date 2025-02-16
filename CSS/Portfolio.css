@@ -1,0 +1,78 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.portfolio_content{
+    height: 1000px;
+    padding: 20px;
+}
+
+.portfolio_page_body_cross{
+    font-size: 30px;
+    background-color: transparent;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.portfolio_page_body_cross:hover{
+    font-size: 35px;
+}
+
+.portfolio_content_h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.portfolio_a_python, .portfolio_a_web_development, .portfolio_a_app_development, .portfolio_a_ai, .portfolio_a_hacking, .portfolio_a_datascience{
+    text-decoration: none;
+    background-color: transparent;
+    color: #8B0000;
+    border: solid #8B0000 1px;
+    font-size: 50px;
+    padding: 70px;
+    border-radius: 50px;
+}
+
+.portfolio_a_python:hover, .portfolio_a_web_development:hover, .portfolio_a_app_development:hover, .portfolio_a_ai:hover, .portfolio_a_hacking:hover, .portfolio_a_datascience:hover{
+    background-color: #E85C5C;
+    color: #121212
+}
+
+
+.portfolio_a_ai{
+    position: relative;
+    top: 50px;
+    right: 400px
+}
+
+.portfolio_a_datascience{
+    position: relative;
+    top: 51px;
+    left: 900px
+}
+
+.portfolio_a_web_development{
+    position: relative;
+    top: 350px;
+    right: 215px
+}
+
+.portfolio_a_hacking{
+    position: relative;
+    top: 292px;
+    right: 170px
+}
+
+.portfolio_a_app_development{
+    position: relative;
+    top: 600px;
+    right: 772px
+}
+
+.portfolio_a_python{
+    position: relative;
+    top: 600px;
+    left: 960px
+}
